@@ -1,26 +1,21 @@
-/**********************************************************************************************************************
-   AUTOR........: Carlos Vidal.
-   CONTATOS.....: (85) 9 8402-3820 - cvidalmo@gmail.com.
-   DATA.........: Setembro de 2020.
-   DESCRIÇÂO....: Sistema IA - Sistema de Inteligência Artificial para WhatsApp.
-   TECNOLOGIAS..: WhatsApp, JavaScript, NodeJS, Puppeteer, venom-bot.
-***********************************************************************************************************************
-   COMO FUNCIONA:
-   --------------
-   Teremos no Sistema IA, os seguintes WhatsApp: da Empresa, do Coordenador, dos Atendentes, dos contatos Clientes e dos
-   contatos NÃO Clientes.
 
-   A finalidade é que o atendimento seja feito para os Clientes CADASTRADOS no WhatsApp da Empresa. As demais mensagens, 
-   de contatos que NÃO sejam Clientes, serão direcionadas para o WhatsApp do Coordenador.
+AUTOR........: Carlos Vidal.<br>
+CONTATOS.....: (85) 9 8402-3820 - cvidalmo@gmail.com.<br>
+DATA.........: Setembro de 2020.<br>
+DESCRIÇÂO....: Sistema IA - Sistema de Inteligência Artificial para WhatsApp.<br>
+TECNOLOGIAS..: WhatsApp, JavaScript, NodeJS, Puppeteer, venom-bot.<br>
 
-   Deve-se criar uma sigla que identifique a Empresa, essa sigla, deve ser usada como um prefixo, colocada na frente do 
-   nome de todos os contatos que sejam Clientes. Ela pode fazer ou não sentido.
-   Exemplo: SRI (Sistema de Rastreamento Independente) ou XXX, se o nome do Cliente for Carlos Vidal, passará a ser 
-           'SRI Carlos Vidal' ou 'XXX Caros Vidal'.
-
+# COMO FUNCIONA:
+Teremos no Sistema IA, os seguintes WhatsApp: da Empresa, do Coordenador, dos Atendentes, dos contatos Clientes e dos contatos NÃO Clientes.<br>
+<br>
+A finalidade é que o atendimento seja feito para os Clientes CADASTRADOS no WhatsApp da Empresa. As demais mensagens, de contatos que NÃO sejam Clientes, serão direcionadas para o WhatsApp do Coordenador.
+<br>
+Deve-se criar uma sigla que identifique a Empresa, essa sigla, deve ser usada como um prefixo, colocada na frente do nome de todos os contatos que sejam Clientes. Ela pode fazer ou não sentido.<br>
+Exemplo: SRI (Sistema de Rastreamento Independente) ou XXX, se o nome do Cliente for Carlos Vidal, passará a ser 'SRI Carlos Vidal' ou 'XXX Caros Vidal'.<br>
+<br>
    Deve ser criado um grupo no WhatsApp da Empresa e adicionado a esse grupo o WhatsApp do Coordenador e dos Atendentes. 
-   O nome desse grupo não tem relevância para o sistema, vamos chamar aqui de Grupo IA.
-
+   O nome desse grupo não tem relevância para o sistema, vamos chamar aqui de Grupo IA.<br>
+<br>
    Para iniciar o Sistena IA, o Coordenador deve enviar uma mensagem para o Grupo IA, com a frase 'iniciar ia' ou 
    'iniciando ia', essa frase pode ter letras maiúsculas ou minúsculas.
    
